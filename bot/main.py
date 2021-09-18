@@ -1,6 +1,5 @@
 import os
 from datetime import datetime
-import keep_alive
 
 
 
@@ -8,7 +7,6 @@ token = os.getenv['BOT_TOKEN']
 owner_id = os.getenv['OWNER_ID']
 
 
-keep_alive.keep_alive()
 
 from discord.ext import commands
 
