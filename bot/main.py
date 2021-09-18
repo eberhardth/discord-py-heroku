@@ -4,8 +4,8 @@ import keep_alive
 
 
 
-token = os.environ['bot_token']
-owner_id = os.environ['owner_id']
+token = os.getenv['BOT_TOKEN']
+owner_id = os.getenv['OWNER_ID']
 
 
 keep_alive.keep_alive()
