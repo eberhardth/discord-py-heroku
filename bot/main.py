@@ -10,9 +10,6 @@ owner_id = os.getenv("OWNER_ID")
 
 from discord.ext import commands
 
-discord.opus.load_opus()
-if not discord.opus.is_loaded():
-    raise RunTimeError('Opus failed to load')
 
 def get_prefix(client, message):
 
