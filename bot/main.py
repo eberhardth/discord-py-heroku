@@ -3,8 +3,8 @@ from datetime import datetime
 
 
 
-token = os.getenv['BOT_TOKEN']
-owner_id = os.getenv['OWNER_ID']
+token = os.getenv("BOT_TOKEN")
+owner_id = os.getenv("OWNER_ID")
 
 
 
